@@ -1,0 +1,315 @@
+//Q1.Write a Java Program to Print Welcome.
+
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+	}
+}
+
+//Q2.Write a Java Program to Print the given word.
+
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        String a = sc.next();
+        System.out.println(a);
+    }
+}
+
+//Q3.Write a Java Program to Print the given message.
+
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        String a = sc.nextLine();
+        System.out.println(a);
+    }
+}
+
+//Q4.Write a Java Program to print the given integer number.
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        System.out.println(a);
+    }
+}
+
+//Q5.Write a Java Program to print the given fractional number.
+
+import java.util.*;
+public class Main{
+    public static void main (String[] args) {
+    Scanner sc=new Scanner(System.in);  
+    float a=sc.nextFloat();
+    System.out.println(a);
+    }
+}
+
+//Q6.Write a Java Program to print the given fractional number in 2 digit decimal format.
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        float a=sc.nextFloat();
+        System.out.printf("%.2f",a);
+    }
+}
+
+//Q7.Write a Java Program to print given integer number in Hexadecimal format.
+
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        Scanner sc= new Scanner(System.in);
+        int a=sc.nextInt();
+        System.out.printf("%x",a);
+    }
+}
+
+//Q8.Write a Java Program to print given integer number in octal format.
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        Scanner sc= new Scanner(System.in);
+        int a=sc.nextInt();
+        System.out.printf("%o",a);
+    }
+}
+
+//Q11.Write a Java Program to print the ASCII value of a character.
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner s=new Scanner(System.in);
+	    System.out.printf("Enter the Character:");
+	    char a=s.next().charAt(0);
+		System.out.println((int) a);
+	}
+}
+
+//Q12.Write a Java Program to print the character for given ASCII value.
+
+//number to ascii
+
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner s=new Scanner(System.in);
+	    System.out.printf("Enter the Character:");
+	    int a=s.nextInt();
+		System.out.println((char) a);
+	}
+}
+
+//Q13.Write a Java Program to print two numbers with a space between them.
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner s=new Scanner(System.in);
+	    System.out.printf("Enter the number1:");
+	    int a=s.nextInt();
+	     System.out.printf("Enter the number2:");
+	    int b=s.nextInt();
+		System.out.println(a+" "+b);
+	}
+
+//Q14.Write a Java Program to print two numbers with a tab space between them.
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner s=new Scanner(System.in);
+	    System.out.printf("Enter the number1:");
+	    int a=s.nextInt();
+	     System.out.printf("Enter the number2:");
+	    int b=s.nextInt();
+		System.out.println(a+ "\t" +b);
+	}
+}
+
+//Q15.Write a Java Program to print two numbers in two lines.
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner s=new Scanner(System.in);
+	    System.out.printf("Enter the number1:");
+	    int a=s.nextInt();
+	     System.out.printf("Enter the number2:");
+	    int b=s.nextInt();
+		System.out.println(a+"\n"+b);
+	}
+}
+
+//Q16.Write a Java Program to print a character in single quotes.
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner s=new Scanner(System.in);
+	    System.out.printf("Enter the character:");
+	    char a=s.next().charAt(0);
+	     
+		System.out.println("'"+a+"'");
+	}
+}
+
+//Q17.Write a Java Program to print two words in double quotes.
+
+import java.util.*;
+public class Main{
+    public static void main(String[]args){
+        Scanner s=new Scanner(System.in);
+        System.out.printf("Enter a word1:");
+        String a=s.next();
+        System.out.printf("Enter a word2:");
+        String b=s.next();
+        System.out.println(("\""+a+" "+b+"\""));
+    }
+}
+
+//Q18.Write a Java Program to print your date of birth in the format DD/MM/YYYY.
+
+import java.util.*;
+public class Main{
+    public static void main(String[]args){
+        Scanner s=new Scanner(System.in);
+        System.out.printf("Enter a date:");
+        int a=s.nextInt();
+        System.out.printf("Enter a month:");
+        int b=s.nextInt();
+        System.out.printf("Enter a year:");
+        int c=s.nextInt();
+       
+        System.out.println(a+"/"+b+"/"+c);
+    }
+}
+
+//Q19.Write a Java Program to print an integer with a plus sign (+) before it.
+
+import java.util.*;
+public class Main{
+    public static void main(String[]args){
+        Scanner s=new Scanner(System.in);
+        System.out.printf("Enter a number:");
+        int a=s.nextInt();
+        
+        System.out.println("+"+a);
+    }
+}
+
+//Q20.Write a Java Program to print the size of char, int, float and double.
+
+import java.util.*;
+public class Main{
+    public static void main(String[]args){
+       System.out.println("size of int "+Integer.BYTES+" Bytes");
+       System.out.println("size of char "+Character.BYTES+" Bytes");
+       System.out.println("size of float "+Float.BYTES+" Bytes");
+       System.out.println("size of double "+Double.BYTES+" Bytes");
+        
+        
+    }
+}
+
+//Q21.Write a Java Program to print your roll number and name in the format: Roll No: 123, Name: John
+
+import java.util.*;
+public class Main{
+    public static void main(String[]args){
+        Scanner s=new Scanner(System.in);
+        System.out.printf("Enter a rollno:");
+        int a=s.nextInt();
+        System.out.println("Enter a name:");
+        String b=s.next();
+        
+        System.out.println("Rollno:"+a);
+        System.out.println("Name:"+b);
+    }
+}
+
+//Q22.Q22.Write a Java Program to print your marks in 5 subjects each on a new line.
+
+
+import java.util.*;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter Maths marks1: ");
+        int m1 = sc.nextInt();
+
+        System.out.print("Enter Science marks2: ");
+        int m2 = sc.nextInt();
+
+        System.out.print("Enter English marks3: ");
+        int m3 = sc.nextInt();
+
+        System.out.print("Enter Social marks4: ");
+        int m4 = sc.nextInt();
+
+        System.out.print("Enter Computer marks5: ");
+        int m5 = sc.nextInt();
+
+        System.out.println("marks1:"+m1);
+        System.out.println("marks2:"+m2);
+        System.out.println("marks:"+m3);
+        System.out.println("marks"+m4);
+        System.out.println("marks:"+m5);
+    }
+}
+
+//Q23.Write a Java Program to print your blood group.
+
+
+import java.util.*;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter your Blood Group: ");
+        String bg = sc.nextLine();
+
+        System.out.println("Your Blood Group is: " + bg);
+    }
+}
+
+//Q24.Write a Java Program to print current time in the format HH:MM:SS.
+
+import java.util.*;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter Address: ");
+        String l1 = sc.nextLine();
+
+        System.out.print("Enter City: ");
+        String city = sc.nextLine();
+
+        System.out.print("Enter State: ");
+        String state = sc.nextLine();
+
+        System.out.print("Enter Pincode: ");
+        int pin = sc.nextInt();
+
+        System.out.println("Address:"+l1 + "\n"  +"City:"+ city + "\n" +"State:"+ state + "\n" + "Pincode:"+pin);
+    }
+}
+
