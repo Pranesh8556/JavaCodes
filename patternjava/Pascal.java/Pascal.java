@@ -1,0 +1,19 @@
+//Q23.Write a Java program to print Pascal’s Triangle.
+
+import java.util.*;
+public class Pascal {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+
+        for (int i = 0; i < n; i++) {
+            int k = 1;   
+            for (int j = 0; j <= i; j++) {
+                System.out.print(k + " ");
+                k = k * (i - j) / (j + 1); //
+            }
+            System.out.println();
+        }
+    }
+}
+                                                       
